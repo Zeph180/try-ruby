@@ -1,8 +1,9 @@
-my_num = 23
-mystr = "hello"
-my_bool = true
+name = "Kigozi"
 
-puts my_num
-puts mystr
-puts my_bool
-puts "Kigozi".reverse
+def print_name(first_name, las_name)
+  name = first_name + ' ' + las_name
+  puts name
+end
+
+print_name "Mako", "Peter"
+puts name
